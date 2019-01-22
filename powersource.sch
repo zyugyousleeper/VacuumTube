@@ -4000,6 +4000,268 @@ general purpose rectifier, 1 A</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="rectifier" urn="urn:adsk.eagle:library:336">
+<description>&lt;b&gt;Rectifiers&lt;/b&gt;&lt;p&gt;
+General Instrument, Semikron, Diotec, Fagor&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="MBS" urn="urn:adsk.eagle:footprint:23862/1" library_version="1">
+<description>&lt;b&gt;Surface Mount Glass Passivated Bridge Rectifiers&lt;/b&gt;&lt;p&gt;
+Source: Comchip Bridge Rectifiers B05S-G_B10S-G.pdf</description>
+<wire x1="-2.325" y1="1.975" x2="2.325" y2="1.975" width="0.254" layer="21"/>
+<wire x1="2.325" y1="1.975" x2="2.325" y2="-1.975" width="0.254" layer="21"/>
+<wire x1="2.325" y1="-1.975" x2="-2.325" y2="-1.975" width="0.254" layer="21"/>
+<wire x1="-2.325" y1="-1.975" x2="-2.325" y2="1.975" width="0.254" layer="21"/>
+<wire x1="-1.55" y1="-1.175" x2="-1" y2="-1.175" width="0.1016" layer="21"/>
+<wire x1="-1.275" y1="-1.425" x2="-1.275" y2="-0.9" width="0.1016" layer="21"/>
+<wire x1="0.99" y1="-1.175" x2="1.54" y2="-1.175" width="0.1016" layer="21"/>
+<wire x1="-1.25" y1="1.25" x2="-1.625" y2="1.25" width="0.1016" layer="21" curve="172.37185"/>
+<wire x1="-0.875" y1="1.25" x2="-1.25" y2="1.25" width="0.1016" layer="21" curve="-172.37185"/>
+<wire x1="1.25" y1="1.25" x2="1.625" y2="1.25" width="0.1016" layer="21" curve="172.37185"/>
+<wire x1="0.875" y1="1.25" x2="1.25" y2="1.25" width="0.1016" layer="21" curve="-172.37185"/>
+<smd name="+" x="-1.27" y="-3" dx="1" dy="1.3" layer="1"/>
+<smd name="-" x="1.27" y="-3" dx="1" dy="1.3" layer="1"/>
+<smd name="AC2" x="1.27" y="3" dx="1" dy="1.3" layer="1" rot="R180"/>
+<smd name="AC1" x="-1.27" y="3" dx="1" dy="1.3" layer="1" rot="R180"/>
+<text x="-2.885" y="-4.175" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="5.155" y="-4.425" size="1.778" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="-1.65" y1="2.075" x2="-0.875" y2="3.505" layer="51" rot="R180"/>
+<rectangle x1="0.89" y1="2.075" x2="1.665" y2="3.505" layer="51" rot="R180"/>
+<rectangle x1="0.875" y1="-3.505" x2="1.65" y2="-2.075" layer="51"/>
+<rectangle x1="-1.665" y1="-3.505" x2="-0.89" y2="-2.075" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="MBS" urn="urn:adsk.eagle:package:23901/1" type="box" library_version="1">
+<description>Surface Mount Glass Passivated Bridge Rectifiers
+Source: Comchip Bridge Rectifiers B05S-G_B10S-G.pdf</description>
+<packageinstances>
+<packageinstance name="MBS"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="DB" urn="urn:adsk.eagle:symbol:23823/1" library_version="1">
+<wire x1="-1.905" y1="-3.175" x2="-4.064" y2="-2.794" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="-3.175" x2="-2.286" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-2.7178" y1="-4.0386" x2="-0.9398" y2="-2.2606" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="3.175" x2="-4.064" y2="2.794" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="3.175" x2="-2.286" y2="1.016" width="0.254" layer="94"/>
+<wire x1="-2.7178" y1="4.0386" x2="-1.0668" y2="2.3876" width="0.254" layer="94"/>
+<wire x1="3.175" y1="1.905" x2="2.794" y2="4.064" width="0.254" layer="94"/>
+<wire x1="3.175" y1="1.905" x2="1.016" y2="2.286" width="0.254" layer="94"/>
+<wire x1="2.3622" y1="1.016" x2="4.1402" y2="2.794" width="0.254" layer="94"/>
+<wire x1="3.175" y1="-1.905" x2="2.794" y2="-4.064" width="0.254" layer="94"/>
+<wire x1="3.175" y1="-1.905" x2="1.016" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="2.3622" y1="-1.0668" x2="4.1402" y2="-2.8448" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="3.175" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="-5.08" x2="-1.905" y2="-3.175" width="0.1524" layer="94"/>
+<wire x1="-3.2766" y1="-1.8034" x2="-5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="-4.064" y1="-2.794" x2="-2.286" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-3.2766" y2="1.8034" width="0.1524" layer="94"/>
+<wire x1="-4.064" y1="2.794" x2="-2.286" y2="1.016" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="3.175" x2="0" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="0" y1="5.08" x2="1.8034" y2="3.2766" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="2.286" x2="2.794" y2="4.064" width="0.254" layer="94"/>
+<wire x1="3.175" y1="1.905" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="-5.08" x2="1.8034" y2="-3.2766" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="-2.286" x2="2.794" y2="-4.064" width="0.254" layer="94"/>
+<text x="5.08" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<text x="5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<pin name="AC1" x="0" y="5.08" visible="off" length="point" direction="pas" rot="R270"/>
+<pin name="+" x="5.08" y="0" visible="off" length="point" direction="pas" rot="R180"/>
+<pin name="AC2" x="0" y="-5.08" visible="off" length="point" direction="pas" rot="R90"/>
+<pin name="-" x="-5.08" y="0" visible="off" length="point" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="B*S" urn="urn:adsk.eagle:component:23936/1" prefix="B" library_version="1">
+<description>&lt;b&gt;Surface Mount Glass Passivated Bridge Rectifiers&lt;/b&gt;&lt;p&gt;
+Source: Comchip Bridge Rectifiers B05S-G_B10S-G.pdf</description>
+<gates>
+<gate name="G$1" symbol="DB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MBS">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="G$1" pin="AC1" pad="AC1"/>
+<connect gate="G$1" pin="AC2" pad="AC2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23901/1"/>
+</package3dinstances>
+<technologies>
+<technology name="05"/>
+<technology name="1"/>
+<technology name="10"/>
+<technology name="2"/>
+<technology name="4"/>
+<technology name="6"/>
+<technology name="8"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="inductor-neosid" urn="urn:adsk.eagle:library:241">
+<description>&lt;b&gt;Neosid Chokes and Transformers&lt;/b&gt;&lt;p&gt;
+
+Based on the following sources:
+&lt;ul&gt;
+&lt;li&gt;Electronic Component Book, Part 2 : Chokes, Fixed Value Inductors
+&lt;li&gt;Part 3 : Filters, Coil Assemblies, Thermoplastic Parts
+&lt;li&gt;Part 4 : SMD Filters, Coils, Fixed Value Inductors
+&lt;li&gt;www.neosid.de
+&lt;/ul&gt;
+ &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="U15" urn="urn:adsk.eagle:footprint:14541/1" library_version="1">
+<description>&lt;b&gt;TRANSFORMER&lt;/b&gt;&lt;p&gt;
+type U15</description>
+<wire x1="-9.75" y1="-8.65" x2="-4.75" y2="-8.65" width="0.2032" layer="21"/>
+<wire x1="4.75" y1="-8.65" x2="9.75" y2="-8.65" width="0.2032" layer="21"/>
+<wire x1="9.75" y1="-8.65" x2="9.75" y2="-3.65" width="0.2032" layer="21"/>
+<wire x1="9.75" y1="3.65" x2="9.75" y2="8.65" width="0.2032" layer="21"/>
+<wire x1="9.75" y1="8.65" x2="4.75" y2="8.65" width="0.2032" layer="21"/>
+<wire x1="-4.75" y1="8.65" x2="-9.75" y2="8.65" width="0.2032" layer="21"/>
+<wire x1="-9.75" y1="8.65" x2="-9.75" y2="3.65" width="0.2032" layer="21"/>
+<wire x1="-9.75" y1="-3.65" x2="-9.75" y2="-8.65" width="0.2032" layer="21"/>
+<wire x1="-11.65" y1="-3.65" x2="-9.75" y2="-3.65" width="0.2032" layer="21"/>
+<wire x1="-4.75" y1="-3.65" x2="4.75" y2="-3.65" width="0.2032" layer="21"/>
+<wire x1="9.75" y1="-3.65" x2="11.65" y2="-3.65" width="0.2032" layer="21"/>
+<wire x1="11.65" y1="-3.65" x2="11.65" y2="3.65" width="0.2032" layer="21"/>
+<wire x1="11.65" y1="3.65" x2="9.75" y2="3.65" width="0.2032" layer="21"/>
+<wire x1="-9.75" y1="3.65" x2="-11.65" y2="3.65" width="0.2032" layer="21"/>
+<wire x1="-11.65" y1="3.65" x2="-11.65" y2="-3.65" width="0.2032" layer="21"/>
+<wire x1="-4.75" y1="8.65" x2="-4.75" y2="7.4" width="0.2032" layer="21"/>
+<wire x1="-4.75" y1="7.4" x2="-4.75" y2="3.65" width="0.2032" layer="21"/>
+<wire x1="-4.75" y1="-3.65" x2="-4.75" y2="-7.4" width="0.2032" layer="21"/>
+<wire x1="-4.75" y1="-7.4" x2="-4.75" y2="-8.65" width="0.2032" layer="21"/>
+<wire x1="4.75" y1="-8.65" x2="4.75" y2="-7.4" width="0.2032" layer="21"/>
+<wire x1="4.75" y1="-7.4" x2="4.75" y2="-3.65" width="0.2032" layer="21"/>
+<wire x1="4.75" y1="7.4" x2="4.75" y2="8.65" width="0.2032" layer="21"/>
+<wire x1="4.75" y1="7.4" x2="-4.75" y2="7.4" width="0.2032" layer="21"/>
+<wire x1="-4.75" y1="-7.4" x2="4.75" y2="-7.4" width="0.2032" layer="21"/>
+<wire x1="-9.75" y1="-3.65" x2="-4.75" y2="-3.65" width="0.2032" layer="21"/>
+<wire x1="-4.75" y1="3.65" x2="-9.75" y2="3.65" width="0.2032" layer="21"/>
+<wire x1="9.75" y1="3.65" x2="4.75" y2="3.65" width="0.2032" layer="21"/>
+<wire x1="4.75" y1="3.65" x2="-4.75" y2="3.65" width="0.2032" layer="21"/>
+<wire x1="4.75" y1="-3.65" x2="9.75" y2="-3.65" width="0.2032" layer="21"/>
+<wire x1="4.75" y1="3.65" x2="4.75" y2="7.4" width="0.2032" layer="21"/>
+<pad name="1" x="-7.5" y="-6.25" drill="1.4224" shape="octagon"/>
+<pad name="2" x="-7.5" y="6.25" drill="1.4224" shape="octagon"/>
+<pad name="3" x="7.5" y="-6.25" drill="1.4224" shape="octagon"/>
+<pad name="4" x="7.5" y="6.25" drill="1.4224" shape="octagon"/>
+<text x="-3.75" y="8.75" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.75" y="-10" size="1.27" layer="27">&gt;VALUE</text>
+<hole x="6.2" y="0" drill="1.8"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="U15" urn="urn:adsk.eagle:package:14678/1" type="box" library_version="1">
+<description>TRANSFORMER
+type U15</description>
+<packageinstances>
+<packageinstance name="U15"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="TR-US" urn="urn:adsk.eagle:symbol:14540/1" library_version="1">
+<wire x1="-3.048" y1="0.254" x2="5.588" y2="0.254" width="0.254" layer="94"/>
+<wire x1="-3.048" y1="-0.254" x2="5.588" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.778" x2="-1.016" y2="-1.778" width="0.254" layer="94" curve="-180" cap="flat"/>
+<wire x1="-1.016" y1="-1.778" x2="0.508" y2="-1.778" width="0.254" layer="94" curve="-180" cap="flat"/>
+<wire x1="0.508" y1="-1.778" x2="2.032" y2="-1.778" width="0.254" layer="94" curve="-180" cap="flat"/>
+<wire x1="2.032" y1="-1.778" x2="3.556" y2="-1.778" width="0.254" layer="94" curve="-180" cap="flat"/>
+<wire x1="3.556" y1="-1.778" x2="5.08" y2="-1.778" width="0.254" layer="94" curve="-180" cap="flat"/>
+<wire x1="-2.54" y1="-1.778" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-1.778" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="3.556" y1="1.778" x2="5.08" y2="1.778" width="0.254" layer="94" curve="180" cap="flat"/>
+<wire x1="2.032" y1="1.778" x2="3.556" y2="1.778" width="0.254" layer="94" curve="180" cap="flat"/>
+<wire x1="0.508" y1="1.778" x2="2.032" y2="1.778" width="0.254" layer="94" curve="180" cap="flat"/>
+<wire x1="-1.016" y1="1.778" x2="0.508" y2="1.778" width="0.254" layer="94" curve="180" cap="flat"/>
+<wire x1="-2.54" y1="1.778" x2="-1.016" y2="1.778" width="0.254" layer="94" curve="180" cap="flat"/>
+<wire x1="5.08" y1="1.778" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.778" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<circle x="-1.778" y="-2.286" radius="0.3592" width="0" layer="94"/>
+<circle x="-1.778" y="2.286" radius="0.3592" width="0" layer="94"/>
+<text x="-2.54" y="3.356" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.794" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="3" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="2"/>
+<pin name="4" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="2" rot="R180"/>
+<pin name="1" x="-5.08" y="2.54" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="7.62" y="2.54" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="U15" urn="urn:adsk.eagle:component:14743/1" prefix="TR" uservalue="yes" library_version="1">
+<description>&lt;B&gt;TRANSFORMER&lt;/B&gt;&lt;p&gt;
+U15</description>
+<gates>
+<gate name="G$1" symbol="TR-US" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-TRANSFORMER" package="U15">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14678/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="supply2" urn="urn:adsk.eagle:library:372">
+<description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
+GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
+Please keep in mind, that these devices are necessary for the
+automatic wiring of the supply signals.&lt;p&gt;
+The pin name defined in the symbol is identical to the net which is to be wired automatically.&lt;p&gt;
+In this library the device names are the same as the pin names of the symbols, therefore the correct signal names appear next to the supply symbols in the schematic.&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="V+" urn="urn:adsk.eagle:symbol:27026/1" library_version="2">
+<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<text x="-1.27" y="1.27" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="V+" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="V+" urn="urn:adsk.eagle:component:27074/1" prefix="SUPPLY" library_version="2">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="V+" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4021,6 +4283,17 @@ general purpose rectifier, 1 A</description>
 <part name="C1" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="10/5" package3d_urn="urn:adsk.eagle:package:5399/1"/>
 <part name="R1" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="R" device=""/>
 <part name="C2" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="10/5" package3d_urn="urn:adsk.eagle:package:5399/1"/>
+<part name="B1" library="rectifier" library_urn="urn:adsk.eagle:library:336" deviceset="B*S" device="" package3d_urn="urn:adsk.eagle:package:23901/1" technology="1"/>
+<part name="TR1" library="inductor-neosid" library_urn="urn:adsk.eagle:library:241" deviceset="U15" device="-TRANSFORMER" package3d_urn="urn:adsk.eagle:package:14678/1"/>
+<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="">
+<attribute name="AC100V" value=""/>
+</part>
+<part name="C3" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="10/5" package3d_urn="urn:adsk.eagle:package:5399/1"/>
+<part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V+" device="">
+<attribute name="V-" value=""/>
+</part>
+<part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V+" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4060,6 +4333,31 @@ general purpose rectifier, 1 A</description>
 <attribute name="NAME" x="-6.604" y="83.439" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-6.604" y="88.519" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="B1" gate="G$1" x="-27.94" y="116.84" smashed="yes">
+<attribute name="VALUE" x="-22.86" y="111.76" size="1.778" layer="96"/>
+<attribute name="NAME" x="-22.86" y="119.38" size="1.778" layer="95"/>
+</instance>
+<instance part="TR1" gate="G$1" x="-45.72" y="119.38" smashed="yes" rot="R180">
+<attribute name="NAME" x="-43.18" y="116.024" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-42.926" y="124.46" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND1" gate="1" x="-53.34" y="106.68" smashed="yes">
+<attribute name="VALUE" x="-55.88" y="104.14" size="1.778" layer="96"/>
+</instance>
+<instance part="P+1" gate="VCC" x="-55.88" y="121.92" smashed="yes" rot="R90">
+<attribute name="VALUE" x="-53.34" y="119.38" size="1.778" layer="96" rot="R180"/>
+<attribute name="AC100V" x="-55.88" y="121.92" size="1.778" layer="96" rot="R90" display="name"/>
+</instance>
+<instance part="C3" gate="G$1" x="-15.24" y="111.76" smashed="yes" rot="R180">
+<attribute name="NAME" x="-16.764" y="111.379" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-16.764" y="116.459" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SUPPLY2" gate="1" x="-7.62" y="109.22" smashed="yes" rot="R270">
+<attribute name="V-" x="-7.62" y="109.22" size="1.778" layer="96" rot="R270" display="name"/>
+</instance>
+<instance part="SUPPLY3" gate="1" x="-7.62" y="116.84" smashed="yes" rot="R270">
+<attribute name="VALUE" x="-6.35" y="118.11" size="1.778" layer="96" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4074,6 +4372,11 @@ general purpose rectifier, 1 A</description>
 <wire x1="-25.4" y1="81.28" x2="-25.4" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 <pinref part="C1" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<wire x1="-53.34" y1="116.84" x2="-53.34" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+<pinref part="TR1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -4116,6 +4419,46 @@ general purpose rectifier, 1 A</description>
 <segment>
 <wire x1="-20.32" y1="93.98" x2="-25.4" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="B1" gate="G$1" pin="AC1"/>
+<wire x1="-40.64" y1="121.92" x2="-27.94" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="TR1" gate="G$1" pin="3"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="B1" gate="G$1" pin="AC2"/>
+<wire x1="-40.64" y1="111.76" x2="-27.94" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="TR1" gate="G$1" pin="1"/>
+<wire x1="-40.64" y1="116.84" x2="-40.64" y2="111.76" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VCC" class="0">
+<segment>
+<pinref part="TR1" gate="G$1" pin="4"/>
+<pinref part="P+1" gate="VCC" pin="VCC"/>
+</segment>
+</net>
+<net name="V+" class="0">
+<segment>
+<pinref part="B1" gate="G$1" pin="-"/>
+<wire x1="-33.02" y1="116.84" x2="-33.02" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="109.22" x2="-15.24" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="-10.16" y1="109.22" x2="-15.24" y2="109.22" width="0.1524" layer="91"/>
+<junction x="-15.24" y="109.22"/>
+<pinref part="SUPPLY2" gate="1" pin="V+"/>
+</segment>
+<segment>
+<pinref part="B1" gate="G$1" pin="+"/>
+<wire x1="-22.86" y1="116.84" x2="-15.24" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="-15.24" y1="116.84" x2="-10.16" y2="116.84" width="0.1524" layer="91"/>
+<junction x="-15.24" y="116.84"/>
+<pinref part="SUPPLY3" gate="1" pin="V+"/>
 </segment>
 </net>
 </nets>
