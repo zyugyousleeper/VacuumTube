@@ -379,7 +379,7 @@ grid 7.62 mm, diameter 18 mm</description>
 <packageinstance name="1X02"/>
 </packageinstances>
 </package3d>
-<package3d name="RESISTOR" urn="urn:adsk.eagle:package:8399790/1" type="box" library_version="9">
+<package3d name="RESISTOR" urn="urn:adsk.eagle:package:8399790/2" type="model" library_version="11">
 <description>&lt;b&gt;POWER RESISTOR&lt;/b&gt;&lt;p&gt;
 17W, grid 80,01 mm</description>
 <packageinstances>
@@ -393,14 +393,14 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <packageinstance name="DO07"/>
 </packageinstances>
 </package3d>
-<package3d name="E7,5-18" urn="urn:adsk.eagle:package:8399793/1" type="box" library_version="10">
+<package3d name="E7,5-18" urn="urn:adsk.eagle:package:8399793/3" type="model" library_version="11">
 <description>ELECTROLYTIC CAPACITOR
 grid 7.62 mm, diameter 18 mm</description>
 <packageinstances>
 <packageinstance name="E7,5-18"/>
 </packageinstances>
 </package3d>
-<package3d name="E7,5-16" urn="urn:adsk.eagle:package:8399792/1" type="box" library_version="10">
+<package3d name="E7,5-16" urn="urn:adsk.eagle:package:8399792/3" type="model" library_version="11">
 <description>ELECTROLYTIC CAPACITOR
 grid 7.62 mm, diameter 16 mm</description>
 <packageinstances>
@@ -562,7 +562,7 @@ grid 7.62 mm, diameter 16 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="E7.5-16" urn="urn:adsk.eagle:component:8399798/1" library_version="10">
+<deviceset name="E7.5-16" urn="urn:adsk.eagle:component:8399798/2" library_version="11">
 <gates>
 <gate name="G$1" symbol="CAPACITOR" x="0" y="2.54"/>
 </gates>
@@ -573,7 +573,7 @@ grid 7.62 mm, diameter 16 mm</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:8399792/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8399792/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -581,7 +581,7 @@ grid 7.62 mm, diameter 16 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="E7.5-18" urn="urn:adsk.eagle:component:8399797/1" library_version="10">
+<deviceset name="E7.5-18" urn="urn:adsk.eagle:component:8399797/2" library_version="11">
 <gates>
 <gate name="G$1" symbol="CAPACITOR" x="0" y="2.54"/>
 </gates>
@@ -592,7 +592,7 @@ grid 7.62 mm, diameter 16 mm</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:8399793/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8399793/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -621,7 +621,7 @@ grid 7.62 mm, diameter 16 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="RESISTOR" urn="urn:adsk.eagle:component:8399795/1" library_version="9">
+<deviceset name="RESISTOR" urn="urn:adsk.eagle:component:8399795/2" library_version="11">
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
@@ -632,7 +632,7 @@ grid 7.62 mm, diameter 16 mm</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:8399790/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8399790/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -665,11 +665,11 @@ grid 7.62 mm, diameter 16 mm</description>
 <part name="JP2" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="JP3" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="JP4" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
-<part name="C1" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="E7.5-16" device="" package3d_urn="urn:adsk.eagle:package:8399792/1"/>
-<part name="C2" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="E7.5-18" device="" package3d_urn="urn:adsk.eagle:package:8399793/1"/>
-<part name="C3" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="E7.5-18" device="" package3d_urn="urn:adsk.eagle:package:8399793/1"/>
+<part name="C1" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="E7.5-16" device="" package3d_urn="urn:adsk.eagle:package:8399792/3"/>
+<part name="C2" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="E7.5-18" device="" package3d_urn="urn:adsk.eagle:package:8399793/3"/>
+<part name="C3" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="E7.5-18" device="" package3d_urn="urn:adsk.eagle:package:8399793/3"/>
 <part name="U$6" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="BRIDGERECTIFIER" device="" package3d_urn="urn:adsk.eagle:package:8399794/1"/>
-<part name="U$7" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:8399790/1"/>
+<part name="U$7" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:8399790/2"/>
 </parts>
 <sheets>
 <sheet>
