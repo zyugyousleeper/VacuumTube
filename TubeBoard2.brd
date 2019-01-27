@@ -3,7 +3,7 @@
 <eagle version="9.2.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
@@ -168,7 +168,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyZDlmMDVj" projecturn="a.cGVyc29uYWw6dWUyZDlmMDVjIzIwMTgxMjMwMTY3NjU5OTU2" f3durn="urn:adsk.wipprod:dm.lineage:fGyzUlU2QBu9tUrGYZlviQ" pcbguid="c0a0ce5a-1e51-4658-88d9-be66126aa057" lastpulledtime="" lastsyncedchangeguid="f38ecf19-1331-d8f8-b58b-cd361b5029e6"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyZDlmMDVj" projecturn="a.cGVyc29uYWw6dWUyZDlmMDVjIzIwMTgxMjMwMTY3NjU5OTU2" f3durn="urn:adsk.wipprod:dm.lineage:DSz6rBeQS9ylMETaIm7xKw" pcbguid="c46e325d-9af0-4786-afaf-edcf28a58fd8" lastpulledtime="" lastsyncedchangeguid="48b02016-af15-4da8-6dae-3d27a5383ea5"/>
 <plain>
 <wire x1="0" y1="0" x2="155" y2="0" width="0.1524" layer="20"/>
 <wire x1="0" y1="114" x2="0" y2="0" width="0.1524" layer="20"/>
@@ -359,7 +359,7 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="AT-MT9P" urn="urn:adsk.eagle:package:8092351/8" type="model" library_version="16">
+<package3d name="AT-MT9P" urn="urn:adsk.eagle:package:8092351/9" type="model" library_version="17">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <packageinstances>
 <packageinstance name="AT-MT9P"/>
@@ -560,17 +560,17 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="E$1" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" package="AT-MT9P" package3d_urn="urn:adsk.eagle:package:8092351/8" value="" x="42.92" y="68.53" smashed="yes" rot="R90">
-<attribute name="NAME" x="38.1912" y="76.0238" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="NAME" x="10.0912" y="76.0238" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="43.195" y="76.1" size="1.27" layer="27" rot="R90"/>
-<attribute name="VALUE" x="15.095" y="76.1" size="1.27" layer="27" rot="R90"/>
+<element name="E$1" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" package="AT-MT9P" package3d_urn="urn:adsk.eagle:package:8092351/9" value="" x="42.92" y="70" smashed="yes" rot="R90">
+<attribute name="NAME" x="38.1912" y="77.4938" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="10.0912" y="77.4938" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="43.195" y="77.57" size="1.27" layer="27" rot="R90"/>
+<attribute name="VALUE" x="15.095" y="77.57" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="E$2" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" package="AT-MT9P" package3d_urn="urn:adsk.eagle:package:8092351/8" value="" x="146" y="7.47" smashed="yes" rot="R90">
-<attribute name="NAME" x="141.2712" y="14.9638" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="NAME" x="113.1712" y="14.9638" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="146.275" y="15.04" size="1.27" layer="27" rot="R90"/>
-<attribute name="VALUE" x="118.175" y="15.04" size="1.27" layer="27" rot="R90"/>
+<element name="E$2" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" package="AT-MT9P" package3d_urn="urn:adsk.eagle:package:8092351/9" value="" x="129" y="7" smashed="yes" rot="R90">
+<attribute name="NAME" x="124.2712" y="14.4938" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="96.1712" y="14.4938" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="129.275" y="14.57" size="1.27" layer="27" rot="R90"/>
+<attribute name="VALUE" x="101.175" y="14.57" size="1.27" layer="27" rot="R90"/>
 </element>
 </elements>
 <signals>
