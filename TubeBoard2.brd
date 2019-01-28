@@ -168,16 +168,17 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyZDlmMDVj" projecturn="a.cGVyc29uYWw6dWUyZDlmMDVjIzIwMTgxMjMwMTY3NjU5OTU2" f3durn="urn:adsk.wipprod:dm.lineage:DSz6rBeQS9ylMETaIm7xKw" pcbguid="c46e325d-9af0-4786-afaf-edcf28a58fd8" lastpulledtime="" lastsyncedchangeguid="48b02016-af15-4da8-6dae-3d27a5383ea5"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyZDlmMDVj" projecturn="a.cGVyc29uYWw6dWUyZDlmMDVjIzIwMTgxMjMwMTY3NjU5OTU2" f3durn="urn:adsk.wipprod:dm.lineage:fEesmY8ORgOAfxUDathAaQ" pcbguid="3dc0f060-33a7-41ea-ac32-d9a9714028a2" lastpulledtime="" lastsyncedchangeguid="6ade1f5c-96c0-69bc-a32b-81e5ecdb3b50"/>
 <plain>
-<wire x1="0" y1="0" x2="155" y2="0" width="0.1524" layer="20"/>
+<wire x1="0" y1="0" x2="120" y2="0" width="0.1524" layer="20"/>
 <wire x1="0" y1="114" x2="0" y2="0" width="0.1524" layer="20"/>
 <wire x1="0" y1="114" x2="155" y2="114" width="0.1524" layer="20"/>
-<wire x1="155" y1="0" x2="155" y2="114" width="0.1524" layer="20"/>
 <hole x="5" y="5" drill="3.2"/>
 <hole x="5" y="109" drill="3.2"/>
-<hole x="150" y="5" drill="3.2"/>
 <hole x="150" y="109" drill="3.2"/>
+<wire x1="155" y1="35" x2="155" y2="114" width="0.1524" layer="20"/>
+<wire x1="155" y1="35" x2="120" y2="0" width="0.1524" layer="20"/>
+<hole x="135" y="30" drill="3.2"/>
 </plain>
 <libraries>
 <library name="VacuumTube" urn="urn:adsk.eagle:library:8044196">
