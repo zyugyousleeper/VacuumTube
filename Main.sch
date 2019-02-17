@@ -655,11 +655,11 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="AT-MT9P(12AX7)" urn="urn:adsk.eagle:component:8969353/2" prefix="V" uservalue="yes" library_version="19">
+<deviceset name="AT-MT9P(12AX7)" urn="urn:adsk.eagle:component:8969353/3" prefix="V" uservalue="yes" library_version="20">
 <gates>
-<gate name="A" symbol="TRIODE" x="0" y="25.4"/>
-<gate name="B" symbol="TRIODE" x="0" y="-25.4"/>
-<gate name="C" symbol="HEATER_2" x="20.32" y="0"/>
+<gate name="A" symbol="TRIODE" x="-12.7" y="0"/>
+<gate name="B" symbol="TRIODE" x="10.16" y="0"/>
+<gate name="C" symbol="HEATER_2" x="25.4" y="0"/>
 </gates>
 <devices>
 <device name="" package="AT-MT9P">
@@ -670,8 +670,8 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <connect gate="B" pin="TA" pad="1"/>
 <connect gate="B" pin="TG" pad="2"/>
 <connect gate="B" pin="TK" pad="3"/>
-<connect gate="C" pin="H1" pad="9"/>
-<connect gate="C" pin="H2" pad="4"/>
+<connect gate="C" pin="H1" pad="4"/>
+<connect gate="C" pin="H2" pad="9"/>
 <connect gate="C" pin="H3" pad="5"/>
 </connects>
 <package3dinstances>
@@ -683,10 +683,10 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="AT-MT9P(6BQ5)" urn="urn:adsk.eagle:component:8092352/8" prefix="V" uservalue="yes" library_version="19">
+<deviceset name="AT-MT9P(6BQ5)" urn="urn:adsk.eagle:component:8092352/9" prefix="V" uservalue="yes" library_version="20">
 <gates>
-<gate name="A" symbol="PENTODE" x="0" y="0"/>
-<gate name="B" symbol="HEATER_1" x="22.86" y="-22.86"/>
+<gate name="A" symbol="PENTODE" x="-10.16" y="0"/>
+<gate name="B" symbol="HEATER_1" x="7.62" y="-12.7"/>
 </gates>
 <devices>
 <device name="" package="AT-MT9P">
