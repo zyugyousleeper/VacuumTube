@@ -737,14 +737,14 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 </class>
 </classes>
 <parts>
-<part name="JP1" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
-<part name="JP2" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="INPUT1" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="INPUT2" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="GND1" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="GND" device=""/>
 <part name="GND2" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="GND" device=""/>
-<part name="JP3" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="VCC" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="GND3" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="GND" device=""/>
 <part name="P+1" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC" device=""/>
-<part name="JP4" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="HEATER_VCC" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="GND4" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="GND" device=""/>
 <part name="P+2" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC/2" device=""/>
 <part name="GND5" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="GND" device=""/>
@@ -777,10 +777,10 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <part name="C5" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:8969349/1" value="10u"/>
 <part name="P+8" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC" device=""/>
 <part name="GND13" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="GND" device=""/>
-<part name="JP5" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="OUT_TRANSFORMER1" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="P+9" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC" device=""/>
 <part name="R9" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="RESISTOR2" device="" package3d_urn="urn:adsk.eagle:package:8969348/1" value="2k"/>
-<part name="JP6" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="OUT_TRANSFORMER2" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="P+10" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC" device=""/>
 <part name="GND14" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="GND" device=""/>
 <part name="P+11" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC/2" device=""/>
@@ -835,11 +835,11 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <text x="289.56" y="0" size="1.778" layer="91">SECOND_OUT2</text>
 </plain>
 <instances>
-<instance part="JP1" gate="G$1" x="0" y="93.98" smashed="yes" rot="R180">
+<instance part="INPUT1" gate="G$1" x="0" y="93.98" smashed="yes" rot="R180">
 <attribute name="NAME" x="6.35" y="88.265" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="6.35" y="99.06" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="JP2" gate="G$1" x="0" y="73.66" smashed="yes" rot="R180">
+<instance part="INPUT2" gate="G$1" x="0" y="73.66" smashed="yes" rot="R180">
 <attribute name="NAME" x="6.35" y="67.945" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="6.35" y="78.74" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -849,7 +849,7 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <instance part="GND2" gate="1" x="12.7" y="66.04" smashed="yes">
 <attribute name="VALUE" x="10.16" y="63.5" size="1.778" layer="96"/>
 </instance>
-<instance part="JP3" gate="G$1" x="0" y="48.26" smashed="yes" rot="R180">
+<instance part="VCC" gate="G$1" x="0" y="48.26" smashed="yes" rot="R180">
 <attribute name="NAME" x="6.35" y="42.545" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="6.35" y="53.34" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -859,7 +859,7 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <instance part="P+1" gate="VCC" x="12.7" y="55.88" smashed="yes">
 <attribute name="VALUE" x="10.16" y="53.34" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="JP4" gate="G$1" x="0" y="20.32" smashed="yes" rot="R180">
+<instance part="HEATER_VCC" gate="G$1" x="0" y="20.32" smashed="yes" rot="R180">
 <attribute name="NAME" x="6.35" y="14.605" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="6.35" y="25.4" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -986,8 +986,8 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <instance part="GND13" gate="1" x="353.06" y="48.26" smashed="yes">
 <attribute name="VALUE" x="350.52" y="45.72" size="1.778" layer="96"/>
 </instance>
-<instance part="JP5" gate="G$1" x="30.48" y="93.98" smashed="yes" rot="R180">
-<attribute name="NAME" x="36.83" y="88.265" size="1.778" layer="95" rot="R180"/>
+<instance part="OUT_TRANSFORMER1" gate="G$1" x="30.48" y="93.98" smashed="yes" rot="R180">
+<attribute name="NAME" x="49.53" y="88.265" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="36.83" y="99.06" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="P+9" gate="VCC" x="43.18" y="99.06" smashed="yes">
@@ -997,8 +997,8 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <attribute name="NAME" x="351.5614" y="92.71" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="356.362" y="92.71" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="JP6" gate="G$1" x="30.48" y="73.66" smashed="yes" rot="R180">
-<attribute name="NAME" x="36.83" y="67.945" size="1.778" layer="95" rot="R180"/>
+<instance part="OUT_TRANSFORMER2" gate="G$1" x="30.48" y="73.66" smashed="yes" rot="R180">
+<attribute name="NAME" x="49.53" y="67.945" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="36.83" y="78.74" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="P+10" gate="VCC" x="43.18" y="78.74" smashed="yes">
@@ -1131,20 +1131,20 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="JP1" gate="G$1" pin="1"/>
+<pinref part="INPUT1" gate="G$1" pin="1"/>
 <wire x1="2.54" y1="91.44" x2="12.7" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="12.7" y1="91.44" x2="12.7" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP2" gate="G$1" pin="1"/>
+<pinref part="INPUT2" gate="G$1" pin="1"/>
 <wire x1="2.54" y1="71.12" x2="12.7" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="12.7" y1="71.12" x2="12.7" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
-<pinref part="JP3" gate="G$1" pin="1"/>
+<pinref part="VCC" gate="G$1" pin="1"/>
 <wire x1="12.7" y1="43.18" x2="12.7" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="45.72" x2="2.54" y2="45.72" width="0.1524" layer="91"/>
 </segment>
@@ -1152,7 +1152,7 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="12.7" y1="15.24" x2="12.7" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="17.78" x2="2.54" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="JP4" gate="G$1" pin="1"/>
+<pinref part="HEATER_VCC" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="76.2" y1="81.28" x2="68.58" y2="81.28" width="0.1524" layer="91"/>
@@ -1247,20 +1247,20 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="JP2" gate="G$1" pin="2"/>
+<pinref part="INPUT2" gate="G$1" pin="2"/>
 <wire x1="2.54" y1="73.66" x2="20.32" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="JP1" gate="G$1" pin="2"/>
+<pinref part="INPUT1" gate="G$1" pin="2"/>
 <wire x1="2.54" y1="93.98" x2="20.32" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
 <segment>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
-<pinref part="JP3" gate="G$1" pin="2"/>
+<pinref part="VCC" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="53.34" x2="12.7" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="48.26" x2="2.54" y2="48.26" width="0.1524" layer="91"/>
 </segment>
@@ -1282,13 +1282,13 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <segment>
 <pinref part="P+9" gate="VCC" pin="VCC"/>
 <wire x1="43.18" y1="96.52" x2="43.18" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="JP5" gate="G$1" pin="2"/>
+<pinref part="OUT_TRANSFORMER1" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="93.98" x2="33.02" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+10" gate="VCC" pin="VCC"/>
 <wire x1="43.18" y1="76.2" x2="43.18" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="JP6" gate="G$1" pin="2"/>
+<pinref part="OUT_TRANSFORMER2" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="73.66" x2="33.02" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -1311,7 +1311,7 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <segment>
 <pinref part="P+2" gate="G$1" pin="VCC/2"/>
 <wire x1="12.7" y1="22.86" x2="12.7" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="JP4" gate="G$1" pin="2"/>
+<pinref part="HEATER_VCC" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="20.32" x2="2.54" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -1454,7 +1454,7 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="JP5" gate="G$1" pin="1"/>
+<pinref part="OUT_TRANSFORMER1" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="91.44" x2="60.96" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -1471,7 +1471,7 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="JP6" gate="G$1" pin="1"/>
+<pinref part="OUT_TRANSFORMER2" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="71.12" x2="60.96" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
