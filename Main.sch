@@ -1574,6 +1574,34 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="102,1,96.52,93.98,VCC/2,N$11,,,,"/>
+<approved hash="102,1,96.52,15.24,VCC/2,N$11,,,,"/>
+<approved hash="201,1,96.52,15.24,VCC/2,VCC/2\, N$11,,,,"/>
+<approved hash="201,1,96.52,93.98,VCC/2,VCC/2\, N$11,,,,"/>
+<approved hash="106,1,2.54,73.66,N$3,,,,,"/>
+<approved hash="106,1,2.54,93.98,N$4,,,,,"/>
+<approved hash="106,1,144.78,78.74,N$7,,,,,"/>
+<approved hash="106,1,228.6,88.9,N$10,,,,,"/>
+<approved hash="106,1,309.88,78.74,N$12,,,,,"/>
+<approved hash="106,1,335.28,96.52,N$15,,,,,"/>
+<approved hash="106,1,33.02,91.44,N$16,,,,,"/>
+<approved hash="106,1,33.02,71.12,N$18,,,,,"/>
+<approved hash="106,1,144.78,0,N$22,,,,,"/>
+<approved hash="106,1,228.6,10.16,N$26,,,,,"/>
+<approved hash="106,1,309.88,0,N$27,,,,,"/>
+<approved hash="106,1,335.28,17.78,N$30,,,,,"/>
+<approved hash="113,1,1.82904,91.2139,INPUT1,,,,,"/>
+<approved hash="113,1,1.82904,70.8939,INPUT2,,,,,"/>
+<approved hash="113,1,2.30293,45.4939,VCC,,,,,"/>
+<approved hash="113,1,-2.10727,17.5539,HEATER_VCC,,,,,"/>
+<approved hash="113,1,166.913,78.74,V1,,,,,"/>
+<approved hash="113,1,335.28,82.55,V2,,,,,"/>
+<approved hash="113,1,35.6101,91.2139,OUT_TRANSFORMER1,,,,,"/>
+<approved hash="113,1,35.6101,70.8939,OUT_TRANSFORMER2,,,,,"/>
+<approved hash="113,1,166.913,0,V3,,,,,"/>
+<approved hash="113,1,335.28,3.81,V4,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
