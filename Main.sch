@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="9" visible="no" active="no"/>
 <layer number="2" name="Route2" color="4" fill="2" visible="no" active="no"/>
@@ -785,11 +785,11 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <part name="P+15" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC/2" device=""/>
 <part name="GND18" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="GND" device=""/>
 <part name="C8" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:8969349/1" value="0.1u"/>
-<part name="C9" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:8969349/1" value="170"/>
+<part name="C9" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:8969349/1" value="220u"/>
 <part name="GND19" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="GND" device=""/>
 <part name="GND20" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="GND" device=""/>
 <part name="R16" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="RESISTOR2" device="" package3d_urn="urn:adsk.eagle:package:8969348/1" value="220k"/>
-<part name="R17" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="RESISTOR2" device="" package3d_urn="urn:adsk.eagle:package:8969348/1" value="220u"/>
+<part name="R17" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="RESISTOR2" device="" package3d_urn="urn:adsk.eagle:package:8969348/1" value="170"/>
 <part name="GND21" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="GND" device=""/>
 <part name="C10" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:8969349/1" value="10u"/>
 <part name="P+16" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC" device=""/>
