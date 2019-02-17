@@ -697,7 +697,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-116.816" y="104.754" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="-116.816" y="100.436" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="C4" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" package="C025-025X050" package3d_urn="urn:adsk.eagle:package:8969349/1" value="170" x="-114.53" y="98.15" smashed="yes">
+<element name="C4" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" package="C025-025X050" package3d_urn="urn:adsk.eagle:package:8969349/1" value="220u" x="-114.53" y="98.15" smashed="yes">
 <attribute name="NAME" x="-116.816" y="99.674" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="-116.816" y="95.356" size="1.27" layer="27" ratio="10"/>
 </element>
@@ -705,7 +705,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-115.8" y="94.467" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="-115.546" y="92.5112" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="R8" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" package="0207/7" package3d_urn="urn:adsk.eagle:package:8969348/1" value="220u" x="-113.26" y="87.99" smashed="yes">
+<element name="R8" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" package="0207/7" package3d_urn="urn:adsk.eagle:package:8969348/1" value="170" x="-113.26" y="87.99" smashed="yes">
 <attribute name="NAME" x="-115.8" y="89.387" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="-115.546" y="87.4312" size="1.27" layer="27" ratio="10"/>
 </element>
