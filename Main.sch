@@ -247,7 +247,7 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <text x="-2.286" y="1.524" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.286" y="-2.794" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="AT-MT9P" urn="urn:adsk.eagle:footprint:8092350/3" library_version="18" library_locally_modified="yes">
+<package name="AT-MT9P" urn="urn:adsk.eagle:footprint:8092350/4" library_version="19">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="23.445" y1="32.27" x2="24.715" y2="32.27" width="0.1524" layer="21"/>
 <wire x1="24.715" y1="32.27" x2="25.35" y2="31.635" width="0.1524" layer="21"/>
@@ -381,44 +381,26 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <wire x1="38" y1="0" x2="38" y2="34" width="0.127" layer="21"/>
 <wire x1="38" y1="34" x2="0" y2="34" width="0.127" layer="21"/>
 <wire x1="0" y1="34" x2="0" y2="0" width="0.127" layer="21"/>
-<pad name="1" x="8.84" y="31" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="11.38" y="31" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="13.92" y="31" drill="1.016" shape="long" rot="R90"/>
-<pad name="4" x="16.46" y="31" drill="1.016" shape="long" rot="R90"/>
-<pad name="5" x="19" y="31" drill="1.016" shape="long" rot="R90"/>
-<pad name="6" x="21.54" y="31" drill="1.016" shape="long" rot="R90"/>
-<pad name="7" x="24.08" y="31" drill="1.016" shape="long" rot="R90"/>
-<pad name="8" x="26.62" y="31" drill="1.016" shape="long" rot="R90"/>
+<pad name="5" x="8.84" y="31" drill="1.016" shape="long" rot="R90"/>
+<pad name="6" x="13.92" y="31" drill="1.016" shape="long" rot="R90"/>
+<pad name="7" x="19" y="31" drill="1.016" shape="long" rot="R90"/>
+<pad name="8" x="24.08" y="31" drill="1.016" shape="long" rot="R90"/>
 <pad name="9" x="29.16" y="31" drill="1.016" shape="long" rot="R90"/>
-<pad name="10" x="8.84" y="2.9" drill="1.016" shape="long" rot="R90"/>
-<pad name="11" x="11.38" y="2.9" drill="1.016" shape="long" rot="R90"/>
-<pad name="12" x="13.92" y="2.9" drill="1.016" shape="long" rot="R90"/>
-<pad name="13" x="16.46" y="2.9" drill="1.016" shape="long" rot="R90"/>
-<pad name="14" x="19" y="2.9" drill="1.016" shape="long" rot="R90"/>
-<pad name="15" x="21.54" y="2.9" drill="1.016" shape="long" rot="R90"/>
-<pad name="16" x="24.08" y="2.9" drill="1.016" shape="long" rot="R90"/>
-<pad name="17" x="26.62" y="2.9" drill="1.016" shape="long" rot="R90"/>
-<pad name="18" x="29.16" y="2.9" drill="1.016" shape="long" rot="R90"/>
-<text x="7.4938" y="32.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="7.57" y="27.825" size="1.27" layer="27">&gt;VALUE</text>
-<text x="7.4938" y="4.7288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="7.57" y="-0.275" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="26.366" y1="30.746" x2="26.874" y2="31.254" layer="51"/>
+<pad name="NC" x="8.84" y="2.9" drill="1.016" shape="long" rot="R90"/>
+<pad name="1" x="13.92" y="2.9" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="19" y="2.9" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="24.08" y="2.9" drill="1.016" shape="long" rot="R90"/>
+<pad name="4" x="29.16" y="2.9" drill="1.016" shape="long" rot="R90"/>
+<text x="1.1438" y="34.0988" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="8.84" y="34.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="23.826" y1="30.746" x2="24.334" y2="31.254" layer="51"/>
-<rectangle x1="21.286" y1="30.746" x2="21.794" y2="31.254" layer="51"/>
 <rectangle x1="18.746" y1="30.746" x2="19.254" y2="31.254" layer="51"/>
-<rectangle x1="16.206" y1="30.746" x2="16.714" y2="31.254" layer="51"/>
 <rectangle x1="13.666" y1="30.746" x2="14.174" y2="31.254" layer="51"/>
-<rectangle x1="11.126" y1="30.746" x2="11.634" y2="31.254" layer="51"/>
 <rectangle x1="8.586" y1="30.746" x2="9.094" y2="31.254" layer="51"/>
 <rectangle x1="28.906" y1="30.746" x2="29.414" y2="31.254" layer="51"/>
-<rectangle x1="26.366" y1="2.646" x2="26.874" y2="3.154" layer="51"/>
 <rectangle x1="23.826" y1="2.646" x2="24.334" y2="3.154" layer="51"/>
-<rectangle x1="21.286" y1="2.646" x2="21.794" y2="3.154" layer="51"/>
 <rectangle x1="18.746" y1="2.646" x2="19.254" y2="3.154" layer="51"/>
-<rectangle x1="16.206" y1="2.646" x2="16.714" y2="3.154" layer="51"/>
 <rectangle x1="13.666" y1="2.646" x2="14.174" y2="3.154" layer="51"/>
-<rectangle x1="11.126" y1="2.646" x2="11.634" y2="3.154" layer="51"/>
 <rectangle x1="8.586" y1="2.646" x2="9.094" y2="3.154" layer="51"/>
 <rectangle x1="28.906" y1="2.646" x2="29.414" y2="3.154" layer="51"/>
 </package>
@@ -444,7 +426,7 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <packageinstance name="C025-025X050"/>
 </packageinstances>
 </package3d>
-<package3d name="AT-MT9P" urn="urn:adsk.eagle:package:8092351/9" type="model" library_version="18" library_locally_modified="yes">
+<package3d name="AT-MT9P" urn="urn:adsk.eagle:package:8092351/10" type="model" library_version="19">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <packageinstances>
 <packageinstance name="AT-MT9P"/>
@@ -673,7 +655,7 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="AT-MT9P(12AX7)" urn="urn:adsk.eagle:component:8969353/1" locally_modified="yes" prefix="V" uservalue="yes" library_version="18" library_locally_modified="yes">
+<deviceset name="AT-MT9P(12AX7)" urn="urn:adsk.eagle:component:8969353/2" prefix="V" uservalue="yes" library_version="19">
 <gates>
 <gate name="A" symbol="TRIODE" x="0" y="25.4"/>
 <gate name="B" symbol="TRIODE" x="0" y="-25.4"/>
@@ -682,18 +664,18 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <devices>
 <device name="" package="AT-MT9P">
 <connects>
-<connect gate="A" pin="TA" pad="7"/>
-<connect gate="A" pin="TG" pad="5"/>
-<connect gate="A" pin="TK" pad="3"/>
-<connect gate="B" pin="TA" pad="12"/>
-<connect gate="B" pin="TG" pad="14"/>
-<connect gate="B" pin="TK" pad="16"/>
-<connect gate="C" pin="H1" pad="1"/>
-<connect gate="C" pin="H2" pad="9"/>
-<connect gate="C" pin="H3" pad="18"/>
+<connect gate="A" pin="TA" pad="6"/>
+<connect gate="A" pin="TG" pad="7"/>
+<connect gate="A" pin="TK" pad="8"/>
+<connect gate="B" pin="TA" pad="1"/>
+<connect gate="B" pin="TG" pad="2"/>
+<connect gate="B" pin="TK" pad="3"/>
+<connect gate="C" pin="H1" pad="9"/>
+<connect gate="C" pin="H2" pad="4"/>
+<connect gate="C" pin="H3" pad="5"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:8092351/9"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8092351/10"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -701,7 +683,7 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="AT-MT9P(6BQ5)" urn="urn:adsk.eagle:component:8092352/7" locally_modified="yes" prefix="V" uservalue="yes" library_version="18" library_locally_modified="yes">
+<deviceset name="AT-MT9P(6BQ5)" urn="urn:adsk.eagle:component:8092352/8" prefix="V" uservalue="yes" library_version="19">
 <gates>
 <gate name="A" symbol="PENTODE" x="0" y="0"/>
 <gate name="B" symbol="HEATER_1" x="22.86" y="-22.86"/>
@@ -709,15 +691,15 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <devices>
 <device name="" package="AT-MT9P">
 <connects>
-<connect gate="A" pin="PA" pad="5"/>
-<connect gate="A" pin="PG" pad="14"/>
-<connect gate="A" pin="PK" pad="16"/>
-<connect gate="A" pin="PSG" pad="1"/>
-<connect gate="B" pin="H1" pad="9"/>
-<connect gate="B" pin="H2" pad="18"/>
+<connect gate="A" pin="PA" pad="7"/>
+<connect gate="A" pin="PG" pad="2"/>
+<connect gate="A" pin="PK" pad="3"/>
+<connect gate="A" pin="PSG" pad="9"/>
+<connect gate="B" pin="H1" pad="4"/>
+<connect gate="B" pin="H2" pad="5"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:8092351/9"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8092351/10"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -763,8 +745,8 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <part name="R6" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="RESISTOR2" device="" package3d_urn="urn:adsk.eagle:package:8969348/1" value="100k"/>
 <part name="C1" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:8969349/1" value="0.1u"/>
 <part name="C2" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:8969349/1" value="0.1u"/>
-<part name="V1" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="AT-MT9P(12AX7)" device="" package3d_urn="urn:adsk.eagle:package:8092351/9"/>
-<part name="V2" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="AT-MT9P(6BQ5)" device="" package3d_urn="urn:adsk.eagle:package:8092351/9"/>
+<part name="V1" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="AT-MT9P(12AX7)" device="" package3d_urn="urn:adsk.eagle:package:8092351/10"/>
+<part name="V2" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="AT-MT9P(6BQ5)" device="" package3d_urn="urn:adsk.eagle:package:8092351/10"/>
 <part name="P+7" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC/2" device=""/>
 <part name="GND8" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="GND" device=""/>
 <part name="C3" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:8969349/1" value="0.1u"/>
@@ -798,8 +780,8 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <part name="R15" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="RESISTOR2" device="" package3d_urn="urn:adsk.eagle:package:8969348/1" value="100k"/>
 <part name="C6" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:8969349/1" value="0.1u"/>
 <part name="C7" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:8969349/1" value="0.1u"/>
-<part name="V3" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="AT-MT9P(12AX7)" device="" package3d_urn="urn:adsk.eagle:package:8092351/9"/>
-<part name="V4" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="AT-MT9P(6BQ5)" device="" package3d_urn="urn:adsk.eagle:package:8092351/9"/>
+<part name="V3" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="AT-MT9P(12AX7)" device="" package3d_urn="urn:adsk.eagle:package:8092351/10"/>
+<part name="V4" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="AT-MT9P(6BQ5)" device="" package3d_urn="urn:adsk.eagle:package:8092351/10"/>
 <part name="P+15" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC/2" device=""/>
 <part name="GND18" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="GND" device=""/>
 <part name="C8" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:8969349/1" value="0.1u"/>
