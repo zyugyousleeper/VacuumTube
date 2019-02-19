@@ -677,8 +677,8 @@ type 0207, grid 7.5 mm</description>
 <part name="D1" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="DIODE" device="" package3d_urn="urn:adsk.eagle:package:8399791/1"/>
 <part name="D2" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="DIODE" device="" package3d_urn="urn:adsk.eagle:package:8399791/1"/>
 <part name="D3" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="BRIDGERECTIFIER" device="" package3d_urn="urn:adsk.eagle:package:8399794/1"/>
-<part name="C1" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="E7.5-16" device="" package3d_urn="urn:adsk.eagle:package:8399792/3" value="47u"/>
-<part name="C2" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="E7.5-18" device="" package3d_urn="urn:adsk.eagle:package:8399793/3" value="100u"/>
+<part name="C1" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="E7.5-16" device="" package3d_urn="urn:adsk.eagle:package:8399792/3" value="100u"/>
+<part name="C2" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="E7.5-18" device="" package3d_urn="urn:adsk.eagle:package:8399793/3" value="47u"/>
 <part name="C3" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="E7.5-18" device="" package3d_urn="urn:adsk.eagle:package:8399793/3" value="8800u"/>
 <part name="R1" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="RESISTOR2" device="" package3d_urn="urn:adsk.eagle:package:8969348/1"/>
 </parts>

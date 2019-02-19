@@ -625,11 +625,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="20.475" y="53.541" size="1.778" layer="25" ratio="10"/>
 <attribute name="VALUE" x="23.555" y="39.92" size="1.778" layer="27" ratio="10"/>
 </element>
-<element name="C1" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" package="E7,5-16" package3d_urn="urn:adsk.eagle:package:8399792/3" value="47u" x="38" y="22" smashed="yes">
+<element name="C1" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" package="E7,5-16" package3d_urn="urn:adsk.eagle:package:8399792/3" value="100u" x="38" y="22" smashed="yes">
 <attribute name="NAME" x="45.874" y="25.81" size="1.778" layer="25" ratio="10"/>
 <attribute name="VALUE" x="32.92" y="17.7074" size="1.778" layer="27" ratio="10"/>
 </element>
-<element name="C2" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" package="E7,5-18" package3d_urn="urn:adsk.eagle:package:8399793/3" value="100u" x="59" y="11" smashed="yes">
+<element name="C2" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" package="E7,5-18" package3d_urn="urn:adsk.eagle:package:8399793/3" value="47u" x="59" y="11" smashed="yes">
 <attribute name="NAME" x="67.001" y="16.08" size="1.778" layer="25" ratio="10"/>
 <attribute name="VALUE" x="53.92" y="6.7074" size="1.778" layer="27" ratio="10"/>
 </element>
