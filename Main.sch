@@ -756,7 +756,7 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <part name="R7" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="RESISTOR2" device="" package3d_urn="urn:adsk.eagle:package:8969348/1" value="220k"/>
 <part name="R8" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="RESISTOR2" device="" package3d_urn="urn:adsk.eagle:package:8969348/1" value="170"/>
 <part name="GND12" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="GND" device=""/>
-<part name="C5" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:8969349/1" value="10u"/>
+<part name="C5" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:8969349/1" value="22u"/>
 <part name="P+8" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC" device=""/>
 <part name="GND13" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="GND" device=""/>
 <part name="OUT_TRANSFORMER1" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
@@ -791,7 +791,7 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <part name="R16" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="RESISTOR2" device="" package3d_urn="urn:adsk.eagle:package:8969348/1" value="220k"/>
 <part name="R17" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="RESISTOR2" device="" package3d_urn="urn:adsk.eagle:package:8969348/1" value="170"/>
 <part name="GND21" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="GND" device=""/>
-<part name="C10" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:8969349/1" value="10u"/>
+<part name="C10" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:8969349/1" value="22u"/>
 <part name="P+16" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC" device=""/>
 <part name="GND22" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="GND" device=""/>
 <part name="R18" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="RESISTOR2" device="" package3d_urn="urn:adsk.eagle:package:8969348/1" value="2k"/>
