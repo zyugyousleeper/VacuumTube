@@ -247,7 +247,7 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <text x="-2.286" y="1.524" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.286" y="-2.794" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="AT-MT9P" urn="urn:adsk.eagle:footprint:8092350/4" library_version="19">
+<package name="AT-MT9P" urn="urn:adsk.eagle:footprint:8092350/4" locally_modified="yes" library_version="20" library_locally_modified="yes">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="23.445" y1="32.27" x2="24.715" y2="32.27" width="0.1524" layer="21"/>
 <wire x1="24.715" y1="32.27" x2="25.35" y2="31.635" width="0.1524" layer="21"/>
@@ -381,16 +381,16 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <wire x1="38" y1="0" x2="38" y2="34" width="0.127" layer="21"/>
 <wire x1="38" y1="34" x2="0" y2="34" width="0.127" layer="21"/>
 <wire x1="0" y1="34" x2="0" y2="0" width="0.127" layer="21"/>
-<pad name="5" x="8.84" y="31" drill="1.016" shape="long" rot="R90"/>
-<pad name="6" x="13.92" y="31" drill="1.016" shape="long" rot="R90"/>
-<pad name="7" x="19" y="31" drill="1.016" shape="long" rot="R90"/>
-<pad name="8" x="24.08" y="31" drill="1.016" shape="long" rot="R90"/>
-<pad name="9" x="29.16" y="31" drill="1.016" shape="long" rot="R90"/>
-<pad name="NC" x="8.84" y="2.9" drill="1.016" shape="long" rot="R90"/>
-<pad name="1" x="13.92" y="2.9" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="19" y="2.9" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="24.08" y="2.9" drill="1.016" shape="long" rot="R90"/>
-<pad name="4" x="29.16" y="2.9" drill="1.016" shape="long" rot="R90"/>
+<pad name="4" x="8.84" y="31" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="13.92" y="31" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="19" y="31" drill="1.016" shape="long" rot="R90"/>
+<pad name="1" x="24.08" y="31" drill="1.016" shape="long" rot="R90"/>
+<pad name="NC" x="29.16" y="31" drill="1.016" shape="long" rot="R90"/>
+<pad name="5" x="8.84" y="3" drill="1.016" shape="long" rot="R90"/>
+<pad name="6" x="13.92" y="2.9" drill="1.016" shape="long" rot="R90"/>
+<pad name="7" x="19" y="3" drill="1.016" shape="long" rot="R90"/>
+<pad name="8" x="24.08" y="3" drill="1.016" shape="long" rot="R90"/>
+<pad name="9" x="29.16" y="3" drill="1.016" shape="long" rot="R90"/>
 <text x="1.1438" y="34.0988" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="8.84" y="34.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="23.826" y1="30.746" x2="24.334" y2="31.254" layer="51"/>
@@ -403,6 +403,27 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <rectangle x1="13.666" y1="2.646" x2="14.174" y2="3.154" layer="51"/>
 <rectangle x1="8.586" y1="2.646" x2="9.094" y2="3.154" layer="51"/>
 <rectangle x1="28.906" y1="2.646" x2="29.414" y2="3.154" layer="51"/>
+</package>
+<package name="E2,5-6" urn="urn:adsk.eagle:footprint:22846/1" library_version="20" library_locally_modified="yes">
+<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
+grid 2.54 mm, diameter 6 mm</description>
+<wire x1="-2.032" y1="1.27" x2="-1.651" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="0.889" x2="-1.651" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="1.27" x2="-1.27" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="1.27" x2="-1.651" y2="1.651" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="0" x2="-0.762" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="-1.27" x2="-0.254" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="-1.27" x2="-0.254" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="1.27" x2="-0.762" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="1.27" x2="-0.762" y2="0" width="0.1524" layer="51"/>
+<wire x1="0.635" y1="0" x2="1.651" y2="0" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="2.794" width="0.1524" layer="21"/>
+<pad name="-" x="1.27" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
+<pad name="+" x="-1.27" y="0" drill="0.8128" diameter="1.6002"/>
+<text x="2.667" y="1.524" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="2.667" y="-2.667" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="51"/>
 </package>
 </packages>
 <packages3d>
@@ -426,7 +447,7 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <packageinstance name="C025-025X050"/>
 </packageinstances>
 </package3d>
-<package3d name="AT-MT9P" urn="urn:adsk.eagle:package:8092351/10" type="model" library_version="19">
+<package3d name="AT-MT9P" urn="urn:adsk.eagle:package:8092351/10" locally_modified="yes" type="model" library_version="20" library_locally_modified="yes">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <packageinstances>
 <packageinstance name="AT-MT9P"/>
@@ -454,14 +475,6 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
 <text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="VCC" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
-<symbol name="VCC/2" urn="urn:adsk.eagle:symbol:8969345/1" library_version="18">
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="0" y1="1.778" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-1.905" x2="0" y2="1.778" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="VCC/2" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
 <symbol name="RESISTOR" urn="urn:adsk.eagle:symbol:8399784/1" library_version="18">
 <wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
@@ -556,6 +569,18 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <pin name="H1" x="0" y="10.16" visible="pad" length="short" direction="pas" rot="R270"/>
 <pin name="H2" x="0" y="0" visible="pad" length="short" direction="pas" rot="R90"/>
 </symbol>
+<symbol name="ELECTROLYTIC_CAPACITOR" urn="urn:adsk.eagle:symbol:8399786/2" library_version="20" library_locally_modified="yes">
+<wire x1="-1.524" y1="-0.889" x2="1.524" y2="-0.889" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-0.889" x2="1.524" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="0" x2="-1.524" y2="-0.889" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="0" x2="1.524" y2="0" width="0.254" layer="94"/>
+<text x="1.143" y="0.4826" size="1.778" layer="95">&gt;NAME</text>
+<text x="-0.5842" y="0.4064" size="1.27" layer="94" rot="R90">+</text>
+<text x="1.143" y="-4.5974" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-1.651" y1="-2.54" x2="1.651" y2="-1.651" layer="94"/>
+<pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="+" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="PINHD-1X2" urn="urn:adsk.eagle:component:8399683/1" prefix="JP" uservalue="yes" library_version="17" library_locally_modified="yes">
@@ -591,23 +616,10 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="VCC" urn="urn:adsk.eagle:component:8969354/1" prefix="P+" library_version="18">
+<deviceset name="VCC" urn="urn:adsk.eagle:component:8969354/1" locally_modified="yes" prefix="P+" uservalue="yes" library_version="20" library_locally_modified="yes">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="VCC" symbol="VCC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="VCC/2" urn="urn:adsk.eagle:component:8969352/1" prefix="P+" library_version="18">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="VCC/2" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -655,7 +667,7 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="AT-MT9P(12AX7)" urn="urn:adsk.eagle:component:8969353/3" prefix="V" uservalue="yes" library_version="20">
+<deviceset name="AT-MT9P(12AX7)" urn="urn:adsk.eagle:component:8969353/3" locally_modified="yes" prefix="V" uservalue="yes" library_version="20" library_locally_modified="yes">
 <gates>
 <gate name="A" symbol="TRIODE" x="-12.7" y="0"/>
 <gate name="B" symbol="TRIODE" x="10.16" y="0"/>
@@ -683,7 +695,7 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="AT-MT9P(6BQ5)" urn="urn:adsk.eagle:component:8092352/9" prefix="V" uservalue="yes" library_version="20">
+<deviceset name="AT-MT9P(6BQ5)" urn="urn:adsk.eagle:component:8092352/9" locally_modified="yes" prefix="V" uservalue="yes" library_version="20" library_locally_modified="yes">
 <gates>
 <gate name="A" symbol="PENTODE" x="-10.16" y="0"/>
 <gate name="B" symbol="HEATER_1" x="7.62" y="-12.7"/>
@@ -701,6 +713,22 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:8092351/10"/>
 </package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CAPACITOR2" prefix="C" uservalue="yes" library_version="20" library_locally_modified="yes">
+<gates>
+<gate name="G$1" symbol="ELECTROLYTIC_CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="E2,5-6">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -725,21 +753,18 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <part name="GND2" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="GND" device=""/>
 <part name="VCC" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="GND3" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="GND" device=""/>
-<part name="P+1" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC" device=""/>
+<part name="P+1" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC" device="" value="250V"/>
 <part name="HEATER_VCC" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="GND4" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="GND" device=""/>
-<part name="P+2" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC/2" device=""/>
 <part name="GND5" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="GND" device=""/>
-<part name="P+3" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC/2" device=""/>
-<part name="P+4" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC/2" device=""/>
-<part name="P+5" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC" device=""/>
+<part name="P+5" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC" device="" value="250V"/>
 <part name="GND6" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="GND" device=""/>
 <part name="GND7" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="GND" device=""/>
 <part name="GND9" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="GND" device=""/>
-<part name="P+6" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC" device=""/>
+<part name="P+6" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC" device="" value="250V"/>
 <part name="R1" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="RESISTOR2" device="" package3d_urn="urn:adsk.eagle:package:8969348/1" value="220k"/>
-<part name="R2" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="RESISTOR2" device="" package3d_urn="urn:adsk.eagle:package:8969348/1" value="3.83k"/>
-<part name="R3" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="RESISTOR2" device="" package3d_urn="urn:adsk.eagle:package:8969348/1" value="50k"/>
+<part name="R2" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="RESISTOR2" device="" package3d_urn="urn:adsk.eagle:package:8969348/1" value="3.9k"/>
+<part name="R3" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="RESISTOR2" device="" package3d_urn="urn:adsk.eagle:package:8969348/1" value="51k"/>
 <part name="R4" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="RESISTOR2" device="" package3d_urn="urn:adsk.eagle:package:8969348/1" value="1M"/>
 <part name="R5" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="RESISTOR2" device="" package3d_urn="urn:adsk.eagle:package:8969348/1" value="1.5k"/>
 <part name="R6" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="RESISTOR2" device="" package3d_urn="urn:adsk.eagle:package:8969348/1" value="100k"/>
@@ -747,34 +772,27 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <part name="C2" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:8969349/1" value="0.1u"/>
 <part name="V1" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="AT-MT9P(12AX7)" device="" package3d_urn="urn:adsk.eagle:package:8092351/10"/>
 <part name="V2" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="AT-MT9P(6BQ5)" device="" package3d_urn="urn:adsk.eagle:package:8092351/10"/>
-<part name="P+7" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC/2" device=""/>
 <part name="GND8" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="GND" device=""/>
 <part name="C3" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:8969349/1" value="0.1u"/>
-<part name="C4" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:8969349/1" value="220u"/>
 <part name="GND10" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="GND" device=""/>
 <part name="GND11" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="GND" device=""/>
 <part name="R7" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="RESISTOR2" device="" package3d_urn="urn:adsk.eagle:package:8969348/1" value="220k"/>
-<part name="R8" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="RESISTOR2" device="" package3d_urn="urn:adsk.eagle:package:8969348/1" value="170"/>
+<part name="R8" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="RESISTOR2" device="" package3d_urn="urn:adsk.eagle:package:8969348/1" value="180"/>
 <part name="GND12" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="GND" device=""/>
-<part name="C5" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:8969349/1" value="22u"/>
-<part name="P+8" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC" device=""/>
-<part name="GND13" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="GND" device=""/>
+<part name="P+8" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC" device="" value="250V"/>
 <part name="OUT_TRANSFORMER1" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
-<part name="P+9" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC" device=""/>
-<part name="R9" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="RESISTOR2" device="" package3d_urn="urn:adsk.eagle:package:8969348/1" value="2k"/>
+<part name="P+9" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC" device="" value="250V"/>
 <part name="OUT_TRANSFORMER2" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
-<part name="P+10" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC" device=""/>
+<part name="P+10" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC" device="" value="250V"/>
 <part name="GND14" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="GND" device=""/>
-<part name="P+11" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC/2" device=""/>
-<part name="P+12" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC/2" device=""/>
-<part name="P+13" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC" device=""/>
+<part name="P+13" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC" device="" value="250V"/>
 <part name="GND15" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="GND" device=""/>
 <part name="GND16" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="GND" device=""/>
 <part name="GND17" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="GND" device=""/>
-<part name="P+14" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC" device=""/>
+<part name="P+14" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC" device="" value="250V"/>
 <part name="R10" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="RESISTOR2" device="" package3d_urn="urn:adsk.eagle:package:8969348/1" value="220k"/>
-<part name="R11" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="RESISTOR2" device="" package3d_urn="urn:adsk.eagle:package:8969348/1" value="3.83k"/>
-<part name="R12" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="RESISTOR2" device="" package3d_urn="urn:adsk.eagle:package:8969348/1" value="50k"/>
+<part name="R11" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="RESISTOR2" device="" package3d_urn="urn:adsk.eagle:package:8969348/1" value="3.9k"/>
+<part name="R12" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="RESISTOR2" device="" package3d_urn="urn:adsk.eagle:package:8969348/1" value="51k"/>
 <part name="R13" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="RESISTOR2" device="" package3d_urn="urn:adsk.eagle:package:8969348/1" value="1M"/>
 <part name="R14" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="RESISTOR2" device="" package3d_urn="urn:adsk.eagle:package:8969348/1" value="1.5k"/>
 <part name="R15" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="RESISTOR2" device="" package3d_urn="urn:adsk.eagle:package:8969348/1" value="100k"/>
@@ -782,19 +800,23 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <part name="C7" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:8969349/1" value="0.1u"/>
 <part name="V3" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="AT-MT9P(12AX7)" device="" package3d_urn="urn:adsk.eagle:package:8092351/10"/>
 <part name="V4" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="AT-MT9P(6BQ5)" device="" package3d_urn="urn:adsk.eagle:package:8092351/10"/>
-<part name="P+15" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC/2" device=""/>
 <part name="GND18" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="GND" device=""/>
 <part name="C8" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:8969349/1" value="0.1u"/>
-<part name="C9" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:8969349/1" value="220u"/>
 <part name="GND19" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="GND" device=""/>
 <part name="GND20" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="GND" device=""/>
 <part name="R16" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="RESISTOR2" device="" package3d_urn="urn:adsk.eagle:package:8969348/1" value="220k"/>
-<part name="R17" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="RESISTOR2" device="" package3d_urn="urn:adsk.eagle:package:8969348/1" value="170"/>
+<part name="R17" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="RESISTOR2" device="" package3d_urn="urn:adsk.eagle:package:8969348/1" value="180"/>
 <part name="GND21" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="GND" device=""/>
-<part name="C10" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:8969349/1" value="22u"/>
-<part name="P+16" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC" device=""/>
-<part name="GND22" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="GND" device=""/>
-<part name="R18" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="RESISTOR2" device="" package3d_urn="urn:adsk.eagle:package:8969348/1" value="2k"/>
+<part name="P+16" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC" device="" value="250V"/>
+<part name="P+2" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC" device="" value="6.3V"/>
+<part name="P+3" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC" device="" value="6.3V"/>
+<part name="P+4" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC" device="" value="6.3V"/>
+<part name="P+7" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC" device="" value="6.3V"/>
+<part name="P+11" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC" device="" value="6.3V"/>
+<part name="P+12" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC" device="" value="6.3V"/>
+<part name="P+15" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="VCC" device="" value="6.3V"/>
+<part name="C4" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="CAPACITOR2" device="" value="220u"/>
+<part name="C5" library="VacuumTube" library_urn="urn:adsk.eagle:library:8044196" deviceset="CAPACITOR2" device="" value="220u"/>
 </parts>
 <sheets>
 <sheet>
@@ -848,17 +870,8 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <instance part="GND4" gate="1" x="12.7" y="12.7" smashed="yes">
 <attribute name="VALUE" x="10.16" y="10.16" size="1.778" layer="96"/>
 </instance>
-<instance part="P+2" gate="G$1" x="12.7" y="25.4" smashed="yes">
-<attribute name="VALUE" x="10.16" y="22.86" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="GND5" gate="1" x="68.58" y="71.12" smashed="yes">
 <attribute name="VALUE" x="66.04" y="68.58" size="1.778" layer="96"/>
-</instance>
-<instance part="P+3" gate="G$1" x="78.74" y="96.52" smashed="yes">
-<attribute name="VALUE" x="76.2" y="93.98" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="P+4" gate="G$1" x="96.52" y="96.52" smashed="yes">
-<attribute name="VALUE" x="93.98" y="93.98" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="P+5" gate="VCC" x="170.18" y="109.22" smashed="yes">
 <attribute name="VALUE" x="167.64" y="106.68" size="1.778" layer="96" rot="R90"/>
@@ -927,19 +940,12 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <attribute name="VALUE" x="120.142" y="81.28" size="1.778" layer="96"/>
 <attribute name="NAME" x="120.142" y="83.82" size="1.778" layer="95"/>
 </instance>
-<instance part="P+7" gate="G$1" x="116.84" y="96.52" smashed="yes">
-<attribute name="VALUE" x="114.3" y="93.98" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="GND8" gate="1" x="116.84" y="71.12" smashed="yes">
 <attribute name="VALUE" x="114.3" y="68.58" size="1.778" layer="96"/>
 </instance>
 <instance part="C3" gate="G$1" x="312.42" y="78.74" smashed="yes" rot="R90">
 <attribute name="NAME" x="312.039" y="80.264" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="317.119" y="80.264" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="C4" gate="G$1" x="332.74" y="60.96" smashed="yes" rot="MR0">
-<attribute name="NAME" x="331.216" y="61.341" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="331.216" y="56.261" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="GND10" gate="1" x="340.36" y="48.26" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="342.9" y="45.72" size="1.778" layer="96" rot="MR0"/>
@@ -958,15 +964,8 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <instance part="GND12" gate="1" x="317.5" y="48.26" smashed="yes">
 <attribute name="VALUE" x="314.96" y="45.72" size="1.778" layer="96"/>
 </instance>
-<instance part="C5" gate="G$1" x="353.06" y="66.04" smashed="yes">
-<attribute name="NAME" x="354.584" y="66.421" size="1.778" layer="95"/>
-<attribute name="VALUE" x="354.584" y="61.341" size="1.778" layer="96"/>
-</instance>
 <instance part="P+8" gate="VCC" x="353.06" y="109.22" smashed="yes">
 <attribute name="VALUE" x="350.52" y="106.68" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="GND13" gate="1" x="353.06" y="48.26" smashed="yes">
-<attribute name="VALUE" x="350.52" y="45.72" size="1.778" layer="96"/>
 </instance>
 <instance part="OUT_TRANSFORMER1" gate="G$1" x="30.48" y="93.98" smashed="yes" rot="R180">
 <attribute name="NAME" x="49.53" y="88.265" size="1.778" layer="95" rot="R180"/>
@@ -974,10 +973,6 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 </instance>
 <instance part="P+9" gate="VCC" x="43.18" y="99.06" smashed="yes">
 <attribute name="VALUE" x="40.64" y="96.52" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R9" gate="G$1" x="353.06" y="96.52" smashed="yes" rot="R90">
-<attribute name="NAME" x="351.5614" y="92.71" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="356.362" y="92.71" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="OUT_TRANSFORMER2" gate="G$1" x="30.48" y="73.66" smashed="yes" rot="R180">
 <attribute name="NAME" x="49.53" y="67.945" size="1.778" layer="95" rot="R180"/>
@@ -988,12 +983,6 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 </instance>
 <instance part="GND14" gate="1" x="68.58" y="-7.62" smashed="yes">
 <attribute name="VALUE" x="66.04" y="-10.16" size="1.778" layer="96"/>
-</instance>
-<instance part="P+11" gate="G$1" x="78.74" y="17.78" smashed="yes">
-<attribute name="VALUE" x="76.2" y="15.24" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="P+12" gate="G$1" x="96.52" y="17.78" smashed="yes">
-<attribute name="VALUE" x="93.98" y="15.24" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="P+13" gate="VCC" x="170.18" y="30.48" smashed="yes">
 <attribute name="VALUE" x="167.64" y="27.94" size="1.778" layer="96" rot="R90"/>
@@ -1062,19 +1051,12 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <attribute name="VALUE" x="120.142" y="2.54" size="1.778" layer="96"/>
 <attribute name="NAME" x="120.142" y="5.08" size="1.778" layer="95"/>
 </instance>
-<instance part="P+15" gate="G$1" x="116.84" y="17.78" smashed="yes">
-<attribute name="VALUE" x="114.3" y="15.24" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="GND18" gate="1" x="116.84" y="-7.62" smashed="yes">
 <attribute name="VALUE" x="114.3" y="-10.16" size="1.778" layer="96"/>
 </instance>
 <instance part="C8" gate="G$1" x="312.42" y="0" smashed="yes" rot="R90">
 <attribute name="NAME" x="312.039" y="1.524" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="317.119" y="1.524" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="C9" gate="G$1" x="332.74" y="-17.78" smashed="yes" rot="MR0">
-<attribute name="NAME" x="331.216" y="-17.399" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="331.216" y="-22.479" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="GND19" gate="1" x="340.36" y="-30.48" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="342.9" y="-33.02" size="1.778" layer="96" rot="MR0"/>
@@ -1093,19 +1075,37 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <instance part="GND21" gate="1" x="317.5" y="-30.48" smashed="yes">
 <attribute name="VALUE" x="314.96" y="-33.02" size="1.778" layer="96"/>
 </instance>
-<instance part="C10" gate="G$1" x="353.06" y="-12.7" smashed="yes">
-<attribute name="NAME" x="354.584" y="-12.319" size="1.778" layer="95"/>
-<attribute name="VALUE" x="354.584" y="-17.399" size="1.778" layer="96"/>
-</instance>
 <instance part="P+16" gate="VCC" x="353.06" y="30.48" smashed="yes">
 <attribute name="VALUE" x="350.52" y="27.94" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND22" gate="1" x="353.06" y="-30.48" smashed="yes">
-<attribute name="VALUE" x="350.52" y="-33.02" size="1.778" layer="96"/>
+<instance part="P+2" gate="VCC" x="12.7" y="25.4" smashed="yes">
+<attribute name="VALUE" x="10.16" y="22.86" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R18" gate="G$1" x="353.06" y="17.78" smashed="yes" rot="R90">
-<attribute name="NAME" x="351.5614" y="13.97" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="356.362" y="13.97" size="1.778" layer="96" rot="R90"/>
+<instance part="P+3" gate="VCC" x="78.74" y="17.78" smashed="yes">
+<attribute name="VALUE" x="76.2" y="15.24" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+4" gate="VCC" x="96.52" y="17.78" smashed="yes">
+<attribute name="VALUE" x="93.98" y="15.24" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+7" gate="VCC" x="116.84" y="17.78" smashed="yes">
+<attribute name="VALUE" x="114.3" y="15.24" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+11" gate="VCC" x="78.74" y="96.52" smashed="yes">
+<attribute name="VALUE" x="76.2" y="93.98" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+12" gate="VCC" x="96.52" y="96.52" smashed="yes">
+<attribute name="VALUE" x="93.98" y="93.98" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+15" gate="VCC" x="116.84" y="96.52" smashed="yes">
+<attribute name="VALUE" x="114.3" y="93.98" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C4" gate="G$1" x="332.74" y="60.96" smashed="yes">
+<attribute name="NAME" x="333.883" y="61.4426" size="1.778" layer="95"/>
+<attribute name="VALUE" x="329.7174" y="57.023" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C5" gate="G$1" x="332.74" y="-17.78" smashed="yes">
+<attribute name="NAME" x="333.883" y="-17.2974" size="1.778" layer="95"/>
+<attribute name="VALUE" x="329.7174" y="-21.717" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -1167,19 +1167,14 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <wire x1="317.5" y1="58.42" x2="317.5" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C4" gate="G$1" pin="2"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="332.74" y1="55.88" x2="332.74" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="-"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="340.36" y1="53.34" x2="340.36" y2="50.8" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C5" gate="G$1" pin="2"/>
-<pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="353.06" y1="60.96" x2="353.06" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="76.2" y1="2.54" x2="68.58" y2="2.54" width="0.1524" layer="91"/>
@@ -1212,19 +1207,14 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <wire x1="317.5" y1="-20.32" x2="317.5" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C9" gate="G$1" pin="2"/>
 <pinref part="GND20" gate="1" pin="GND"/>
 <wire x1="332.74" y1="-22.86" x2="332.74" y2="-27.94" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="-"/>
 </segment>
 <segment>
 <pinref part="R17" gate="G$1" pin="2"/>
 <pinref part="GND19" gate="1" pin="GND"/>
 <wire x1="340.36" y1="-25.4" x2="340.36" y2="-27.94" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C10" gate="G$1" pin="2"/>
-<pinref part="GND22" gate="1" pin="GND"/>
-<wire x1="353.06" y1="-17.78" x2="353.06" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -1257,11 +1247,6 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <pinref part="V1" gate="B" pin="TA"/>
 </segment>
 <segment>
-<pinref part="P+8" gate="VCC" pin="VCC"/>
-<wire x1="353.06" y1="106.68" x2="353.06" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="2"/>
-</segment>
-<segment>
 <pinref part="P+9" gate="VCC" pin="VCC"/>
 <wire x1="43.18" y1="96.52" x2="43.18" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="OUT_TRANSFORMER1" gate="G$1" pin="2"/>
@@ -1284,37 +1269,42 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <pinref part="V3" gate="B" pin="TA"/>
 </segment>
 <segment>
-<pinref part="P+16" gate="VCC" pin="VCC"/>
-<wire x1="353.06" y1="27.94" x2="353.06" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="R18" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="VCC/2" class="0">
-<segment>
-<pinref part="P+2" gate="G$1" pin="VCC/2"/>
 <wire x1="12.7" y1="22.86" x2="12.7" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="HEATER_VCC" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="20.32" x2="2.54" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="P+2" gate="VCC" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="P+3" gate="G$1" pin="VCC/2"/>
-<wire x1="78.74" y1="91.44" x2="78.74" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="V1" gate="C" pin="H1"/>
-</segment>
-<segment>
-<pinref part="V2" gate="B" pin="H1"/>
-<pinref part="P+7" gate="G$1" pin="VCC/2"/>
-<wire x1="116.84" y1="88.9" x2="116.84" y2="93.98" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="P+11" gate="G$1" pin="VCC/2"/>
 <wire x1="78.74" y1="12.7" x2="78.74" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="V3" gate="C" pin="H1"/>
+<pinref part="P+3" gate="VCC" pin="VCC"/>
+</segment>
+<segment>
+<wire x1="78.74" y1="-7.62" x2="96.52" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="-7.62" x2="96.52" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="V3" gate="C" pin="H3"/>
+<pinref part="P+4" gate="VCC" pin="VCC"/>
 </segment>
 <segment>
 <pinref part="V4" gate="B" pin="H1"/>
-<pinref part="P+15" gate="G$1" pin="VCC/2"/>
 <wire x1="116.84" y1="10.16" x2="116.84" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="P+7" gate="VCC" pin="VCC"/>
+</segment>
+<segment>
+<wire x1="78.74" y1="91.44" x2="78.74" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="V1" gate="C" pin="H1"/>
+<pinref part="P+11" gate="VCC" pin="VCC"/>
+</segment>
+<segment>
+<wire x1="78.74" y1="71.12" x2="96.52" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="71.12" x2="96.52" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="V1" gate="C" pin="H3"/>
+<pinref part="P+12" gate="VCC" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="V2" gate="B" pin="H1"/>
+<wire x1="116.84" y1="88.9" x2="116.84" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="P+15" gate="VCC" pin="VCC"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -1387,20 +1377,6 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <pinref part="C2" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$11" class="0">
-<segment>
-<wire x1="78.74" y1="71.12" x2="96.52" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="P+4" gate="G$1" pin="VCC/2"/>
-<wire x1="96.52" y1="71.12" x2="96.52" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="V1" gate="C" pin="H3"/>
-</segment>
-<segment>
-<wire x1="78.74" y1="-7.62" x2="96.52" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="P+12" gate="G$1" pin="VCC/2"/>
-<wire x1="96.52" y1="-7.62" x2="96.52" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="V3" gate="C" pin="H3"/>
-</segment>
-</net>
 <net name="N$12" class="0">
 <segment>
 <pinref part="C3" gate="G$1" pin="1"/>
@@ -1422,10 +1398,10 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <pinref part="R8" gate="G$1" pin="1"/>
 <pinref part="V2" gate="A" pin="PK"/>
 <wire x1="340.36" y1="63.5" x2="340.36" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="332.74" y1="63.5" x2="332.74" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="332.74" y1="68.58" x2="340.36" y2="68.58" width="0.1524" layer="91"/>
 <junction x="340.36" y="68.58"/>
+<pinref part="C4" gate="G$1" pin="+"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -1442,13 +1418,11 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="C5" gate="G$1" pin="1"/>
 <pinref part="V2" gate="A" pin="PSG"/>
-<wire x1="353.06" y1="81.28" x2="353.06" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="81.28" x2="353.06" y2="81.28" width="0.1524" layer="91"/>
-<junction x="353.06" y="81.28"/>
 <wire x1="353.06" y1="91.44" x2="353.06" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="P+8" gate="VCC" pin="VCC"/>
+<wire x1="353.06" y1="106.68" x2="353.06" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -1548,10 +1522,10 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <pinref part="R17" gate="G$1" pin="1"/>
 <pinref part="V4" gate="A" pin="PK"/>
 <wire x1="340.36" y1="-15.24" x2="340.36" y2="-10.16" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="332.74" y1="-15.24" x2="332.74" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="332.74" y1="-10.16" x2="340.36" y2="-10.16" width="0.1524" layer="91"/>
 <junction x="340.36" y="-10.16"/>
+<pinref part="C5" gate="G$1" pin="+"/>
 </segment>
 </net>
 <net name="N$30" class="0">
@@ -1562,13 +1536,11 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 </net>
 <net name="N$31" class="0">
 <segment>
-<pinref part="C10" gate="G$1" pin="1"/>
 <pinref part="V4" gate="A" pin="PSG"/>
-<wire x1="353.06" y1="2.54" x2="353.06" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="2.54" x2="353.06" y2="2.54" width="0.1524" layer="91"/>
-<junction x="353.06" y="2.54"/>
 <wire x1="353.06" y1="12.7" x2="353.06" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="R18" gate="G$1" pin="1"/>
+<pinref part="P+16" gate="VCC" pin="VCC"/>
+<wire x1="353.06" y1="27.94" x2="353.06" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
